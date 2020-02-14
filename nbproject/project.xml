@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>SCSI2SD-V6</name>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>src</sourceRootElem>
+                <sourceRootElem>include</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Src</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src</sourceRootElem>
+                <sourceRootElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

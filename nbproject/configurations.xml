@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>include/hidpacket.h</itemPath>
+        <itemPath>include/scsi2sd.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Firmware" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="STM32" projectFiles="true">
+        <logicalFolder name="f1" displayName="HAL_DRIVER" projectFiles="true">
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Src" displayName="MIDDLEWARES" projectFiles="true">
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.c</itemPath>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="Templates" projectFiles="true">
+          <logicalFolder name="f1" displayName="assm" projectFiles="true">
+            <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f205xx.s</itemPath>
+          </logicalFolder>
+          <itemPath>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c</itemPath>
+        </logicalFolder>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/bsp_driver_sd.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/fsmc.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/gpio.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/main.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/sdio.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/spi.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_hal_msp.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_it.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/usart.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/usb_host.c</itemPath>
+        <itemPath>STM32CubeMX/SCSI2SD-V6/Src/usbh_conf.c</itemPath>
+      </logicalFolder>
+      <itemPath>src/firmware/bootloader.c</itemPath>
+      <itemPath>src/firmware/bsp.c</itemPath>
+      <itemPath>src/firmware/cdrom.c</itemPath>
+      <itemPath>src/firmware/config.c</itemPath>
+      <itemPath>src/firmware/diagnostic.c</itemPath>
+      <itemPath>src/firmware/disk.c</itemPath>
+      <itemPath>src/firmware/fpga.c</itemPath>
+      <itemPath>src/firmware/geometry.c</itemPath>
+      <itemPath>src/firmware/hidpacket.c</itemPath>
+      <itemPath>src/firmware/inquiry.c</itemPath>
+      <itemPath>src/firmware/led.c</itemPath>
+      <itemPath>src/firmware/main.c</itemPath>
+      <itemPath>src/firmware/mo.c</itemPath>
+      <itemPath>src/firmware/mode.c</itemPath>
+      <itemPath>src/firmware/scsi.c</itemPath>
+      <itemPath>src/firmware/scsiPhy.c</itemPath>
+      <itemPath>src/firmware/sd.c</itemPath>
+      <itemPath>src/firmware/spinlock.c</itemPath>
+      <itemPath>src/firmware/tape.c</itemPath>
+      <itemPath>src/firmware/time.c</itemPath>
+      <itemPath>src/firmware/usb_device/usb_device.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_composite.c</itemPath>
+      <itemPath>STM32CubeMX/SCSI2SD-V6/Src/usbd_conf.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_desc.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_hid.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_msc.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_msc_bot.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_msc_data.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_msc_scsi.c</itemPath>
+      <itemPath>src/firmware/usb_device/usbd_msc_storage_sd.c</itemPath>
+      <itemPath>src/firmware/vendor.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>rtl/fpga_bitmap.o</itemPath>
+      <itemPath>src/firmware/link.ld</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+    <Elem>include</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Src</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src</Elem>
+    <Elem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_arm-eabi-none|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/drivers</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>src/firmware/usb_device</pElem>
+            <pElem>src/firmware</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -mslow-flash-data -std=gnu11 -specs=nosys.specs -Os -g -Wno-attributes</commandLine>
+          <preprocessorList>
+            <Elem>STM32F205xx</Elem>
+            <Elem>USE_HAL_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>3</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/drivers</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>src/firmware/usb_device</pElem>
+            <pElem>src/firmware</pElem>
+          </incDir>
+          <commandLine>-Wno-attributes</commandLine>
+          <preprocessorList>
+            <Elem>STM32F205xx</Elem>
+            <Elem>USE_HAL_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>3</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/firmware.elf</output>
+          <linkerLibItems>
+            <linkerLibFileItem>rtl/fpga_bitmap.o</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-Tsrc/firmware/link.ld</commandLine>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Zip</packType>
+        <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/firmware.zip</output>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f205xx.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_usb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/bsp_driver_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/fsmc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/gpio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/sdio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/spi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_hal_msp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_it.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool>
+          <additionalDep></additionalDep>
+        </cTool>
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usart.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usb_host.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usbd_conf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usbh_conf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="include/hidpacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/scsi2sd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/firmware/bootloader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/bsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/cdrom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/diagnostic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/disk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/fpga.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/geometry.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/hidpacket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/inquiry.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/led.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/main.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <additionalDep> ${OBJECTDIR}/STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_it.o overload</additionalDep>
+        </cTool>
+      </item>
+      <item path="src/firmware/mo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/mode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/scsi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/scsiPhy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/sd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/spinlock.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/tape.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usb_device.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_composite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_desc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_hid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_bot.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_data.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_scsi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_storage_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/firmware/vendor.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_arm-eabi-none|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/drivers</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>src/firmware/usb_device</pElem>
+            <pElem>src/firmware</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -mslow-flash-data -std=gnu11 -specs=nosys.specs -Os -g</commandLine>
+          <preprocessorList>
+            <Elem>STM32F205xx</Elem>
+            <Elem>USE_HAL_DRIVER</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Inc</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/Third_Party/FatFs/src/drivers</pElem>
+            <pElem>STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Inc</pElem>
+            <pElem>src/firmware/usb_device</pElem>
+            <pElem>src/firmware</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>STM32F205xx</Elem>
+            <Elem>USE_HAL_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/scsi2sd-v6-nb.elf</output>
+          <linkerLibItems>
+            <linkerLibFileItem>rtl/fpga_bitmap.o</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-Tsrc/firmware/link.ld</commandLine>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Zip</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/gcc/startup_stm32f205xx.s"
+            ex="false"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/CMSIS/Device/ST/STM32F2xx/Source/Templates/system_stm32f2xx.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_hcd.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_sdmmc.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/bsp_driver_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/fsmc.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/gpio.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/main.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/sdio.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/spi.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_hal_msp.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_it.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+        <cTool>
+          <additionalDep></additionalDep>
+        </cTool>
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usart.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usb_host.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usbd_conf.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="STM32CubeMX/SCSI2SD-V6/Src/usbh_conf.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="include/hidpacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/scsi2sd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/firmware/bootloader.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/bsp.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/cdrom.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/config.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/diagnostic.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/disk.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/fpga.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/geometry.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/hidpacket.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/inquiry.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/led.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/main.c" ex="false" tool="0" flavor2="9">
+        <cTool>
+          <additionalDep> ${OBJECTDIR}/STM32CubeMX/SCSI2SD-V6/Src/stm32f2xx_it.o overload</additionalDep>
+        </cTool>
+      </item>
+      <item path="src/firmware/mo.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/mode.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/scsi.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/scsiPhy.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/sd.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/spinlock.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/tape.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/time.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usb_device.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_composite.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_desc.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_hid.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_bot.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_data.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_scsi.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/usb_device/usbd_msc_storage_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="9">
+      </item>
+      <item path="src/firmware/vendor.c" ex="false" tool="0" flavor2="9">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
